@@ -147,8 +147,8 @@ h1, h2, h3, h4, p {
         // border: 1px solid red;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        grid-template-areas: "supervisor1 teambuilder1 karma1"
-                             "supervisor1 calculator1 karma1";
+        grid-template-areas: "supervisor1 teambuilder1 calculator1"
+                             "supervisor1 karma1 calculator1";
     }
 
     .wrapper {
@@ -179,12 +179,12 @@ h1, h2, h3, h4, p {
         }
         &.karma {
             grid-area: karma1;
-            height: 14rem;
-            width: 100%;
-            margin: auto;
         }
         &.calculator {
             grid-area: calculator1;
+            height: 14rem;
+            width: 100%;
+            margin: auto;
         }
     }
 }

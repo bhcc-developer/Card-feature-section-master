@@ -118,7 +118,7 @@ h1, h2, h3, h4, p {
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "supervisor1 teambuilder1 karma1" "supervisor1 calculator1 karma1";
+    grid-template-areas: "supervisor1 teambuilder1 calculator1" "supervisor1 karma1 calculator1";
   }
 
   .wrapper {
@@ -145,12 +145,12 @@ h1, h2, h3, h4, p {
   }
   .card.karma {
     grid-area: karma1;
-    height: 14rem;
-    width: 100%;
-    margin: auto;
   }
   .card.calculator {
     grid-area: calculator1;
+    height: 14rem;
+    width: 100%;
+    margin: auto;
   }
 }
 @media screen and (min-width: 1200px) {
