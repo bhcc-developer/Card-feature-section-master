@@ -42,6 +42,7 @@ h1, h2, h3, h4, p {
     &__second {
         // border: 1px solid yellow;
         font-weight: 600;
+        display: block;
     }
 }
 
@@ -98,5 +99,104 @@ h1, h2, h3, h4, p {
         // border: 1px solid black;
         display: flex;
         justify-content: flex-end;
+    }
+}
+
+
+//responsive design
+
+@media screen and (min-width:  480px ) {
+
+    .title {
+        // border: 1px solid red;
+        font-size: 2em;
+        font-weight: 300;
+    }
+}
+
+@media screen and (min-width:  768px ) {
+
+    .title {
+        // border: 1px solid red;
+        font-size: 2em;
+    }
+    .copy {
+        padding: 0 6rem;
+    }
+
+    .card {
+        .copy {
+            padding: 0;
+        }
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2em;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .title {
+        // border: 1px solid red;
+        font-size: 2.4em;
+    }
+
+    .grid {
+        // border: 1px solid red;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "supervisor1 teambuilder1 karma1"
+                             "supervisor1 calculator1 karma1";
+    }
+
+    .wrapper {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .copy {
+        padding: 0 14rem;
+    }
+
+   
+    
+    .card {
+        .copy {
+            padding: 0;
+        }
+ 
+        &.supervisor {
+            grid-area: supervisor1;
+            height: 14rem;
+            width: 100%;
+            margin: auto;
+        }
+        
+        &.teamBuilder {
+            grid-area: teambuilder1;
+        }
+        &.karma {
+            grid-area: karma1;
+            height: 14rem;
+            width: 100%;
+            margin: auto;
+        }
+        &.calculator {
+            grid-area: calculator1;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .copy {
+        padding: 0 20rem;
+    }
+
+    .card {
+        .copy {
+            padding: 0;
+        }
     }
 }

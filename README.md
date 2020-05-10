@@ -1,4 +1,9 @@
 # Desing Frontendmentor [Challenges](https://www.frontendmentor.io/challenges)
+Elaborrado con sass.
+
+## Pasos de Uso
+- npm install -g sass
+- Nos vamos a la direccion de nuestra carpeta en el CMD y colocamos sass --watch ./scss/main.scss ./css/styles.css
 
 ## Mobile
 ![](mobile-design.jpg)
