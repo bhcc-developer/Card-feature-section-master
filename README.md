@@ -1,12 +1,14 @@
-# Desing frontendmentor ![Challenges](https://www.frontendmentor.io/challenges)
+# Desing Frontendmentor [Challenges](https://www.frontendmentor.io/challenges)
 
 ## Mobile
-![](https://github.com/bhcc-developer/Card-feature-section-master/blob/master/Guias/design/mobile-design.jpg)
+![](mobile-design.jpg)
 
 ## Desktop 
-![](https://github.com/bhcc-developer/Card-feature-section-master/blob/master/Guias/design/mobile-design.jpg)
+![](desktop-design.jpg)
 
 # Front-end Style Guide
+
+
 
 ## Layout
 
