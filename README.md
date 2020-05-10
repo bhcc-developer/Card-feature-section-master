@@ -8,7 +8,7 @@
 
 # Front-end Style Guide
 
-
+Mobile First
 
 ## Layout
 
